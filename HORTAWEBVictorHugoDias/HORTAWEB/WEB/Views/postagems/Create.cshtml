@@ -1,0 +1,36 @@
+﻿@model DOMAIN.postagem
+
+@{
+    ViewBag.Title = "Upload";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Postar Imagem</h2>
+<br />
+@using (Html.BeginForm("PostarImagem", "postagems", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+
+    <div class="well">
+        <form class="form-horizontal" role="form">
+            <h4>What's New</h4>
+            <div class="form-group" style="padding:14px;">
+                <textarea class="form-control" placeholder="Update your status" name="Conteudo"></textarea>
+            </div>
+
+            <div class="fileUpload btn btn-primary">
+                <span>Upload</span>
+                <input type="file" class="upload" name="photo" />
+            </div>
+            <button class="btn btn-primary pull-right" type="submit">Post</button>
+
+
+        </form>
+    </div>
+
+
+
+}  
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

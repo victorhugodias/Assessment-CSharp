@@ -1,0 +1,53 @@
+﻿@model IEnumerable<DOMAIN.postagem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div class="row">
+    @foreach (var item in Model)
+    {
+
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="panel panel-default">
+                <p>Usuario : @Html.DisplayFor(modelItem => item.emailUsuario)</p>
+                
+                @if (item.imagem != "Sem Imagem")
+                {
+                    <div class="panel-thumbnail"><img src="@Html.DisplayFor(modelItem => item.imagem)" class="img-responsive"></div>
+
+                }
+                <div class="panel-body">
+                    <p class="lead">Conteudo:</p>
+                    <p>@Html.DisplayFor(modelItem => item.Conteudo)</p>
+                    <p>
+
+                        <td>
+                            @if (item.idUsuario == Session["idUsuario"].ToString())
+                            {
+                                @Html.ActionLink("Deletar", "Delete", new { id = item.id })
+
+                            }
+                           
+                        </td>
+                        
+                    </p>
+                </div>
+            </div>
+
+            <br />
+        </div>
+
+    }
+    <br />
+</div>
+<br />
+<br />
+<br />
+
+</table>
