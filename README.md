@@ -8,6 +8,6 @@ O software completo desenvolvido deve ser composto por, pelo menos, uma camada d
 ![Alt text](./redeSocial1.jpg)
 ![Alt text](./redeSocial2.jpg)
 ![Alt text](./redeSocial3.jpg)
-![Alt text](./redeSocial4.jpg)
+![Alt text](./redeSocial7.jpg)
 ![Alt text](./redeSocial5.jpg)
 ![Alt text](./redeSocial6.jpg)
