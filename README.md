@@ -5,9 +5,9 @@ O software completo desenvolvido deve ser composto por, pelo menos, uma camada d
 #### Imagens do Sistema.
 
 
-![Alt text](./reseSocial1.jpg)
-![Alt text](./reseSocial2.jpg)
-![Alt text](./reseSocial3.jpg)
-![Alt text](./reseSocial4.jpg)
-![Alt text](./reseSocial5.jpg)
-![Alt text](./reseSocial6.jpg)
+![Alt text](./redeSocial1.jpg)
+![Alt text](./redeSocial2.jpg)
+![Alt text](./redeSocial3.jpg)
+![Alt text](./redeSocial4.jpg)
+![Alt text](./redeSocial5.jpg)
+![Alt text](./redeSocial6.jpg)
